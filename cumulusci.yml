@@ -49,14 +49,14 @@ project:
 tasks:
   robot:
     options:
-      suites: robot/generic-revenue-cloud-org/tests
+      suites: robot/simple-revenue-cloud-org/tests
       options:
-        outputdir: robot/generic-revenue-cloud-org/results
+        outputdir: robot/simple-revenue-cloud-org/results
 
   robot_testdoc:
     options:
-      path: robot/generic-revenue-cloud-org/tests
-      output: robot/generic-revenue-cloud-org/doc/generic-revenue-cloud-org_tests.html
+      path: robot/simple-revenue-cloud-org/tests
+      output: robot/simple-revenue-cloud-org/doc/simple-revenue-cloud-org_tests.html
 
   run_tests:
     options:

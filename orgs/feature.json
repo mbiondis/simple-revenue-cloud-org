@@ -1,5 +1,5 @@
 {
-  "orgName": "generic-revenue-cloud-org - Feature Test Org",
+  "orgName": "simple-revenue-cloud-org - Feature Test Org",
   "edition": "Developer",
   "features": [
     "EnableSetPasswordInApi",
