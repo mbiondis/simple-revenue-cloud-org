@@ -1,0 +1,100 @@
+minimum_cumulusci_version: "3.52.0"
+project:
+  name: simple-revenue-cloud-org
+  package:
+    name: simple-revenue-cloud-org
+    api_version: "54.0"
+  git:
+  source_format: sfdx
+  dependencies:
+    # Flow Actions Base Pack
+    - version_id: 04t8b000001Eh4YAAS
+
+    # Flow Screen Components Base Pack
+    - version_id: 04t5G000003rUyAQAU
+
+    # Collection Actions for Flow
+    - version_id: 04t5G000003rUwTQAU
+
+    # SOQL Build And Execute
+    - version_id: 04t5G000003rUoPQAU
+
+    # Convert CSV to Records
+    - version_id: 04t5G000003rUvfQAE
+
+    # Datatable
+    - version_id: 04t5G000003rUyKQAU
+
+    # File Upload Improved
+    - version_id: 04t5G000003rUtjQAE
+
+    # Salesforce CPQ
+    - version_id: 04t4N000000GkQmQAK
+
+    # Salesforce Advanced Approvals
+    - version_id: 04t4W000002kdRlQAI
+
+    # Salesforce Billing
+    - version_id: 04t0K000000wUrNQAU
+
+    # Starter Pack for Revenue Cloud
+    - version_id: 04t8d000000ckIDAAY
+
+    # Developer Pack for Revenue Cloud
+    - version_id: 04t8d000000ckINAAY
+
+    # Hybrid Usage for Revenue Cloud
+    - version_id: 04t8d000000ckQxAAI
+
+tasks:
+  robot:
+    options:
+      suites: robot/generic-revenue-cloud-org/tests
+      options:
+        outputdir: robot/generic-revenue-cloud-org/results
+
+  robot_testdoc:
+    options:
+      path: robot/generic-revenue-cloud-org/tests
+      output: robot/generic-revenue-cloud-org/doc/generic-revenue-cloud-org_tests.html
+
+  run_tests:
+    options:
+      required_org_code_coverage_percent: 75
+
+flows:
+  assign_permissions:
+    steps:
+      #      1:
+      #        task: assign_permission_set_licenses
+      #        options:
+      #          api_names: SalesforceCPQ.CPQAAPerm
+      #          user_alias: UUser
+      1.1:
+        task: dx
+        options:
+          command: "force:user:permsetlicense:assign -n 'Salesforce CPQ License'"
+      1.2:
+        task: dx
+        options:
+          command: "force:user:permsetlicense:assign -n 'Salesforce CPQ AA License'"
+      2:
+        task: assign_permission_sets
+        options:
+          api_names: SteelBrickCPQAdmin,AdvancedApprovalsAdmin,SalesforceBillingAdmin,RevenueCloud_Admin,HybridUsage_Management,fileUploadImproved,USF_Flow_Screen_Component_Datatable,USF_Flow_Screen_Component_Custom_Objects
+
+  load_data:
+    steps:
+      1:
+        task: dx
+        options:
+          command: "sfdmu:run -s csvfile -p data/csv"
+
+  dev_org:
+    steps:
+      5:
+        flow: assign_permissions
+  install_prod:
+    steps:
+      5:
+        flow: assign_permissions

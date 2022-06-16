@@ -1,0 +1,33 @@
+{
+  "orgName": "generic-revenue-cloud-org - Dev Org",
+  "edition": "Developer",
+  "features": [
+    "EnableSetPasswordInApi",
+    "CPQ",
+    "FinanceLogging",
+    "Communities",
+    "PartnerCommunity",
+    "ForceComPlatform",
+    "SalesUser"
+  ],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "chatterSettings": {
+      "enableChatter": true
+    },
+    "userManagementSettings": {
+      "enableNewProfileUI": true
+    },
+    "securitySettings": {
+      "enableAdminLoginAsAnyUser": true,
+      "sessionSettings": {
+        "forceRelogin": false
+      }
+    },
+    "languageSettings": {
+      "enableTranslationWorkbench": true
+    }
+  }
+}

@@ -1,0 +1,4 @@
+Name,blng__Active__c,blng__Notes__c,blng__TaxCode__c,blng__TaxLegalEntity__c,blng__TaxGLRule__c,blng__TaxIntegration__c,blng__TaxRule__c,Errors,Id
+Standard Tax - UK,true,,Standard,a262z00000079uxAAA,a1x2z0000006S3fAAE,a2X2z000000AuNIEA0,a2Z2z0000009IwtEAE,,a2a2z000000B7LAAA0
+Reduced Tax - UK,true,,Reduced,a262z00000079uxAAA,a1x2z0000006S3fAAE,a2X2z000000AuNIEA0,a2Z2z0000009IwtEAE,,a2a2z000000B7LBAA0
+Zero Tax - UK,true,,Zero,a262z00000079uxAAA,a1x2z0000006S3fAAE,a2X2z000000AuNIEA0,a2Z2z0000009IwtEAE,,a2a2z000000B7LCAA0

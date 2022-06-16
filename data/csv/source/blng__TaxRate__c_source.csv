@@ -1,0 +1,4 @@
+Name,blng__City__c,blng__Country__c,blng__Priority__c,blng__Rate__c,blng__State__c,blng__TaxCode__c,blng__ZipCode__c,blng__LegalEntity__r.Name,Id,blng__LegalEntity__c,blng__LegalEntity__r.Id
+UK - Standard,,United Kingdom,0,20,,Standard,,UK,4AWCVO4IRT6E11MGK2,ZVQRKYKLGEYJ2UJICR,ZVQRKYKLGEYJ2UJICR
+UK - Zero,,United Kingdom,0,0,,Zero,,UK,RTSIXQNKU5FXJWL4MK,ZVQRKYKLGEYJ2UJICR,ZVQRKYKLGEYJ2UJICR
+UK - Reduced,,United Kingdom,0,5,,Reduced,,UK,9BZDM2HUUVWFZX1DFJ,ZVQRKYKLGEYJ2UJICR,ZVQRKYKLGEYJ2UJICR

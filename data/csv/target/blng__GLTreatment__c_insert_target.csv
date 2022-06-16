@@ -1,0 +1,4 @@
+Name,blng__Active__c,blng__Notes__c,blng__GLLegalEntity__c,blng__CreditGLAccount__c,blng__DebitGLAccount__c,blng__GLRule__c,Errors,Id
+Revenue GL Treatment - UK,true,,a262z00000079uxAAA,a1w2z000000Rd8LAAS,a1w2z000000Rd8KAAS,a1x2z0000006S3eAAE,,a1y2z000000RAV5AAO
+Billing GL Treatment - UK,true,,a262z00000079uxAAA,a1w2z000000Rd8MAAS,a1w2z000000Rd8NAAS,a1x2z0000006S3gAAE,,a1y2z000000RAV6AAO
+Standard Tax - UK,true,,a262z00000079uxAAA,a1w2z000000Rd8JAAS,a1w2z000000Rd8IAAS,a1x2z0000006S3fAAE,,a1y2z000000RAV7AAO

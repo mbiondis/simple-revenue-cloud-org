@@ -1,0 +1,11 @@
+Name,SBQQ__DisplayOrder__c,SBQQ__BorderColor__c,SBQQ__BottomMargin__c,SBQQ__ColumnHeaderHidden__c,SBQQ__ConditionalPrintField__c,SBQQ__FilterField__c,SBQQ__FilterOperator__c,SBQQ__FilterValue__c,SBQQ__GroupField__c,SBQQ__KeepTogether__c,SBQQ__KeepWithNext__c,SBQQ__KeepWithPrevious__c,SBQQ__PageBreak__c,SBQQ__QuoteTotalsPrinted__c,SBQQ__RollUpField__c,SBQQ__SummaryDisplay__c,SBQQ__TopMargin__c,SBQQ__Content__c,SBQQ__Template__c,Errors,Id
+Notes,70,,0,false,,,,,,Auto,Auto,,Before,false,,,0,a1H2z000000tUP7EAM,a102z000000YkhcAAC,,a1I2z0000003ZJJEA2
+Cover Letter,30,,0,false,,,,,,Auto,Auto,,,false,,,0,a1H2z000000tUP8EAM,a102z000000YkhcAAC,,a1I2z0000003ZJKEA2
+Line Items,60,,0,false,,Optional,equals,FALSE,,Auto,Auto,,,false,,,0,a1H2z000000tUPAEA2,a102z000000YkhcAAC,,a1I2z0000003ZJLEA2
+Terms - Header,80,,0,false,,,,,,Auto,Auto,,Before,false,,,0,a1H2z000000tUP3EAM,a102z000000YkhcAAC,,a1I2z0000003ZJMEA2
+Cover Page,10,,0,false,,,,,,Auto,Auto,,,false,,,0,a1H2z000000tUP9EAM,a102z000000YkhcAAC,,a1I2z0000003ZJNEA2
+Header 1,20,,0,false,,,,,,Auto,Auto,,Before,false,,,0,a1H2z000000tUP6EAM,a102z000000YkhcAAC,,a1I2z0000003ZJOEA2
+Prepared For/By,50,,0,false,,,,,,Auto,Auto,,,false,,,0,a1H2z000000tUP1EAM,a102z000000YkhcAAC,,a1I2z0000003ZJPEA2
+Header 2,40,,0,false,,,,,,Auto,Auto,,Before,false,,,0,a1H2z000000tUP5EAM,a102z000000YkhcAAC,,a1I2z0000003ZJQEA2
+Terms - Body,90,,0,false,,,,,,Auto,Auto,,,false,,,0,a1H2z000000tUP4EAM,a102z000000YkhcAAC,,a1I2z0000003ZJREA2
+Signature Block,100,,0,false,,,,,,Auto,Auto,,Before,false,,,0,a1H2z000000tUP2EAM,a102z000000YkhcAAC,,a1I2z0000003ZJSEA2

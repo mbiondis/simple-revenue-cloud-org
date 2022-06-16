@@ -1,0 +1,7 @@
+Name,blng__Active__c,blng__GLAccountDescription__c,blng__GLAccountNumber__c,blng__Notes__c,Errors,Id
+Tax Debit Account - UK,true,,2002,,,a1w2z000000Rd8IAAS
+Tax Credit Account - UK,true,,2001,,,a1w2z000000Rd8JAAS
+Revenue Debit Account - UK,true,,1002,,,a1w2z000000Rd8KAAS
+Revenue Credit Account - UK,true,,1001,,,a1w2z000000Rd8LAAS
+Billing Credit Account - UK,true,,0001,,,a1w2z000000Rd8MAAS
+Billing Debit Account - UK,true,,0002,,,a1w2z000000Rd8NAAS
