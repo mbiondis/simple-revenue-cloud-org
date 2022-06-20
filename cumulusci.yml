@@ -13,6 +13,9 @@ project:
     # Flow Screen Components Base Pack
     - version_id: 04t5G000003rUyAQAU
 
+    # Image Preview URL
+    - version_id: 04t6F000001ZLV6
+
     # Direct Navigation
     - version_id: 04t5G000004PuWpQAK
 
