@@ -46,14 +46,14 @@ project:
     # Salesforce Billing
     - version_id: 04t0K000000wUrNQAU
 
+    # Hybrid Usage for Revenue Cloud
+    - version_id: 04t8d000000ckQxAAI
+
     # Starter Pack for Revenue Cloud
     - version_id: 04t8d000000cki7AAA
 
     # Developer Pack for Revenue Cloud
     - version_id: 04t8d000000ckINAAY
-
-    # Hybrid Usage for Revenue Cloud
-    - version_id: 04t8d000000ckQxAAI
 
 tasks:
   robot:
