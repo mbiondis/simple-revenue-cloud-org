@@ -31,13 +31,13 @@
         <layout>Opportunity-Revenue Cloud</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Order-Revenue Cloud</layout>
+        <layout>Order-Hybrid Usage</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>OrderItem-Revenue Cloud</layout>
+        <layout>OrderItem-Hybrid Usage</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Product2-Revenue Cloud</layout>
+        <layout>Product2-Hybrid Usage</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>SBQQ__ConfigurationAttribute__c-Revenue Cloud - Configuration Attribute</layout>
@@ -65,6 +65,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>SBQQ__QuoteTemplate__c-Revenue Cloud</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__QuoteProcess__c-Revenue Cloud</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ProcessInput__c-Revenue Cloud</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>SBQQ__Quote__c-Revenue Cloud %28Internal Sales%29</layout>
