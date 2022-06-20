@@ -13,11 +13,17 @@ project:
     # Flow Screen Components Base Pack
     - version_id: 04t5G000003rUyAQAU
 
+    # Direct Navigation
+    - version_id: 04t5G000004PuWpQAK
+
     # Collection Actions for Flow
     - version_id: 04t5G000003rUwTQAU
 
     # SOQL Build And Execute
     - version_id: 04t5G000003rUoPQAU
+
+    # Record Detail
+    # - version_id: 04t5G0000047xDuQAI
 
     # Convert CSV to Records
     - version_id: 04t5G000003rUvfQAE
@@ -38,7 +44,7 @@ project:
     - version_id: 04t0K000000wUrNQAU
 
     # Starter Pack for Revenue Cloud
-    - version_id: 04t8d000000ckIDAAY
+    - version_id: 04t8d000000cki7AAA
 
     # Developer Pack for Revenue Cloud
     - version_id: 04t8d000000ckINAAY
@@ -98,3 +104,13 @@ flows:
     steps:
       5:
         flow: assign_permissions
+  update_permissions:
+    steps:
+      1:
+        task: add_permission_set_perms
+        options:
+          api-names: RevenueCloud_OrderManagement.OrderItem
+          field-permissions:
+            - field: SellModel__c
+              readable: true
+              editable: false
